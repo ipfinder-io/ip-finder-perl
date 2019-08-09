@@ -64,9 +64,6 @@ $ipfinder = IO::IPFinder->new('YOUR_TOKEN_GOES_HERE');
 # lookup your IP address information
 $auth = $ipfinder->Authentication();
 
-# lookup your IP address information
-$auth = $ipfinder->Authentication();
-
 print Dumper $auth;
 ```
 
